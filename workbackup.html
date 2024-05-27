@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<link rel="stylesheet" href="defaultstyle.css">
+<script src="showmore.js" defer></script>
+</head>
+<body>
+
+<!-- header -->
+<div class="div1" style="background-color:#f2E9D8;">
+<div class="div2">
+    <div class="header1">
+        <!-- div1 -->
+        <div style="padding-top:30px;">
+        <img src="hoduname.png" id="HODUTITLE" style="width:130px;height:40px;">
+        
+        <span class="headerdiv1span">
+        <a href="test.html" target="_blank">Home</a>
+        <a href="test.html" target="_blank">About</a>
+        <a href="test.html" target="_blank">Support</a>
+        <a href="hodu.png" target="_blank" download="hodu.png"
+        class="downloadstyle" style="margin-left:30px;">Download</a>
+        </span>
+        
+        </div>
+        
+        <!-- div2 -->
+        <div class="headerdiv2" style="margin-top:20px;">
+        
+        <span class="headerdiv2span">
+        <p class="strongbig">Lorem Ipsum is simply<br>dummy text of the printing and</p>
+        <p style="margin-bottom:2vw; margin-top:1vw">
+        Lorem Ipsum is simply dummy text of the printing and<br>
+        typesetting industry.
+        Lorem Ipsum has been the industry's standard dummy text<br>
+        ever since the 1500s, when an unknown<br>
+        </p>
+        <a href="hodu.png" target="_blank"download="Hodu.png" class="downloadstyle">
+        Download
+        </a>
+        </span>
+                       
+        
+        <span>
+        <img src="hodu.png" style="height:766px;width:415px;">
+        </span>
+          
+        </div>      
+            
+         
+    </div>
+
+
+</div>
+</div>
+
+
+<!-- main -->
+<div class="div1">
+<div class="div2">
+
+    <!-- Main -->
+    <div class="maindiv">
+    
+        <!-- main div1 -->
+    <div class="maindiv1">
+<img src="hodu.png"  style="width:660px;height:390px; border-radius: 30px; background-color: beige;">
+
+<span style="margin-right:20px;">
+    <p class="strongsmall">
+    Lorem Ipsum is simply<br>
+    dummy text of the printing <br>
+    and dummy text<br>
+    <br>
+    </p>
+    <p>
+    Lorem Ipsum is simply dummy text of the printing and typesetting<br>industry.
+    </p>
+</span>
+</div>
+    <div class="maindiv2" style="margin-top:100px;">
+    <span>
+        <p class="strongbig" style="color:#D97652;">dummy text of the printing and dummy</p>
+    <p style="margin-top:50px;">Lorem Ipsum is simply <span style="color:#D97652;">dummy text</span> of the printing and typesetting industry.<br>
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown</p>
+    </span>
+    <div id="secondword">
+    <div class="list-pic"> 
+    </div>
+    </div>
+    
+    <div style="margin-top:50px; margin-bottom:50px;">
+        <p class="strongsmall">Connect to HODU</p>
+        <button id="imgbtn" class="downloadstyle" style="margin-top:30px;">Share with you!</button>
+    </div>
+    
+    </div>
+    
+
+
+
+
+</div>
+
+
+
+</div>
+</div>
+<!-- map API -->
+<article>
+
+<div class="div1">
+    <div class="div2">
+    
+    <div>
+        <p class="strongsmall">
+            Where You'll be
+        </p>
+        <p style="padding:30px 0 30px 0">
+            330, Cheomdan-ro, Jeju-si, Jeju-do, Republic of Korea
+        </p>
+
+            <div id="map" style="width:1278;height:520px;border-radius:12px;"></div>
+            
+            <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=3a627beb64e56bbf70c557052f383531"></script>
+            <script>
+            var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
+                mapOption = { 
+                    center: new kakao.maps.LatLng(33.450701, 126.570667), // 지도의 중심좌표
+                    level: 3 // 지도의 확대 레벨
+                };
+            
+            // 지도를 표시할 div와  지도 옵션으로  지도를 생성합니다
+            var map = new kakao.maps.Map(mapContainer, mapOption); 
+            var markerPosition  = new kakao.maps.LatLng(33.450701, 126.570667); 
+
+// 마커를 생성합니다
+var marker = new kakao.maps.Marker({
+    position: markerPosition
+});
+
+marker.setMap(map);
+</script>
+</div>
+</article>
+
+
+<!-- subscribe -->
+<article>
+<div class="div1">
+    <div class="div2">
+    
+
+<div class="subscribe" style="margin-top:100px;">
+<div class="whitecolor">
+    <p class="strongsmall">Subscribe to our Blog post</p>
+    <p  style="margin-top:20px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br> 
+        Lorem Ipsum has been the industry's standard dummy text </p>
+    </div>
+
+<div class="enterdiv">
+
+<img src="123.png" style="width:24px;height:24px; margin-left:20px; margin-right:20px;">
+
+<form class="form1">
+    <!-- <input type="mail" placeholder="Enter your e-mail address" style="border:none;"> -->
+
+    <input type="text" placeholder="Enter your e-mail address" style="border:none;">
+<button id="subbtn" class="downloadstyle"
+style="margin-right:20px;">Subscribe</button>
+</form>
+
+</div>
+</div>
+</div>
+</div>
+</article>
+
+<!-- modal -->
+<article>
+
+<div id="mod" class="modal">
+    <div>
+    <img src="123.png" style="width:110px;height:112px;">
+    <span style="text-align: center;">
+    <p class="strongsmall" style="color:#D97652;">Thank you!</p>
+    <p style="margin-top:10px;">Lorem Ipsum is simply dummy text of the printing industry.</p>
+    </span>
+    <button id="modalbtn" class="downloadstyle">OK! I Love HODU</a>
+    </div>
+  
+</div>
+
+
+</article>
+<!-- upbutton -->
+<article>    
+    <span>
+    <a href="#" target="_self"><img src="123.png" class="upupup"></a>
+    </span>
+</article>
+
+<!-- footer -->
+<div class="footerdiv">
+
+<div class="div1" style="height:340px;"></div>
+<div class="div1" style="background-color:white; height:160px; align-items:center; ">
+
+    <div class="div2" style="margin-top:0;">
+<div class="footer1">
+<div>
+<img src="hoduname.png" style="width:226px;height:70px;">
+<span class="footer1span">
+        <a href="test.html" target="_blank"><img src="123.png"></a>
+        <a href="test.html" target="_blank"><img src="123.png"></a>
+        <a href="test.html" target="_blank"><img src="123.png"></a>
+        <a href="test.html" target="_blank"><img src="123.png"></a>    
+</span>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+</body>
+</html>
